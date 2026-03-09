@@ -47,3 +47,26 @@ def analyze_code(files):
         "largest_file":largest_file,
         "complexity":complexity_total
     }
+    
+def analyze_code(files):
+    result = {
+        "total_files": len(files),
+        "languages": {},
+        "todos": 0
+    }
+
+    for file in files:
+        with open(file, "r", encoding="utf-8", errors="ignore") as f:
+            text = f.read()
+
+        if file.endswith(".py"):
+            lang = "Python"
+        elif file.endswith(".js"):
+            lang = "JavaScript"
+        else:
+            lang = "Other"
+
+        result["languages"][lang] = result["languages"].get(lang, 0) + 1
+        result["todos"] += text.lower().count("todo")
+
+    return result

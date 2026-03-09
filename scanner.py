@@ -1,0 +1,12 @@
+import os
+
+
+def scan_files(path):
+    code_files = []
+
+    for root, dirs, files in os.walk(path):
+        for file in files:
+            if file.endswith((".py", ".js", ".ts", ".java", ".cpp")):
+                code_files.append(os.path.join(root, file))
+
+    return code_files
