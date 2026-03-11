@@ -3,6 +3,29 @@ from devpulse.scanner import scan_files
 from devpulse.analyzer import analyze_code
 from devpulse.dashboard import dashboard
 from devpulse.ai_commit import generate_commit
+from devpulse.quality import CodeQualityAnalyzer
+
+def run_quality_scan(path="."):
+    analyzer = CodeQualityAnalyzer()
+    report = analyzer.analyze_project(path)
+
+    print("\nDevPulse Code Quality Report")
+    print("----------------------------")
+    print("Files scanned:", report["files"])
+    print("Lines of code:", report["lines"])
+    print("Functions:", report["functions"])
+    print("Classes:", report["classes"])
+    print("TODOs:", report["todos"])
+
+    if report["large_files"]:
+        print("\nLarge files:")
+        for f in report["large_files"]:
+            print("-", f)
+
+    if report["deep_nesting"]:
+        print("\nDeep nesting detected:")
+        for f in report["deep_nesting"]:
+            print("-", f)
 
 
 def main():
