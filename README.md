@@ -9,7 +9,7 @@ Features
 - Project health score
 
 Install
-pip install devpulse
+pip install devpulse-tool
 
 Usage
 devpulse my_project
