@@ -26,3 +26,15 @@ Added
 Hot fix
 
 -Little fix version to smooth action
+
+---
+
+## v1.0.0
+
+Added
+
+-Code Quality Analyzer
+-Function and class metrics
+-Large file detection
+-Deep nesting detection
+-TODO detection
