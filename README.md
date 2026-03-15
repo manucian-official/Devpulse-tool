@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/devpulse-icon.png" width="80">
+<img src="op.png" width="80">
 
 <h1 style="color:#3b82f6;">DevPulse</h1>
 
