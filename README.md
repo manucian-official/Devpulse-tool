@@ -382,6 +382,6 @@ Transform raw source code into actionable developer insights.
 
 <h2 style="color:#3b82f6;">DevPulse</h2>
 
-<b>Code Intelligence for Developers</b>
+<b>Code Intelligence for Developers, See yall</b>
 
 </div>
