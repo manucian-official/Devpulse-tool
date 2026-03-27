@@ -1,0 +1,9 @@
+{
+  "name": "@manucian-official/my-package",
+  "version": "1.0.0",
+  "description": "My first package",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
