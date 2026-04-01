@@ -9,7 +9,7 @@ The following table indicates which versions of this project currently receive s
 | v1.0.0   | :white_check_mark: Supported |
 | v0.2.1  | :x: Not supported |
 | v0.2.0  | :white_check_mark: Supported |
-| < 0.2.0   | :x: Not supported |
+| < v0.2.0   | :x: Not supported |
 
 ### Support Policy
 
