@@ -2,8 +2,8 @@
 name: Feature request
 about: Suggest an idea for this project
 title: ''
-labels: ''
-assignees: ''
+labels: bug, documentation, duplicate, enhancement, fah this bug, good first issue
+assignees: manucian-official
 
 ---
 
