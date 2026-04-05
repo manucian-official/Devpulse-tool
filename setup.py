@@ -5,7 +5,7 @@ this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text(encoding="utf-8")
 
 setup(
-    name="devpulse-tool",
+    name="devpulse",
     version="1.0.0",
     description="DevPulse - AI powered code scanner and developer productivity tool",
     long_description=long_description,
